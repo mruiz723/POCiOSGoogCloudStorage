@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D622242ACF027100D07567 /* POCiOSGoogCloudStorageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622232ACF027100D07567 /* POCiOSGoogCloudStorageApp.swift */; };
+		F8D622262ACF027100D07567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622252ACF027100D07567 /* ContentView.swift */; };
+		F8D622282ACF027200D07567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D622272ACF027200D07567 /* Assets.xcassets */; };
+		F8D6222B2ACF027200D07567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D6222A2ACF027200D07567 /* Preview Assets.xcassets */; };
+		F8D622402ACF048100D07567 /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622352ACF048100D07567 /* DriveView.swift */; };
+		F8D622412ACF048100D07567 /* DriveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622362ACF048100D07567 /* DriveViewModel.swift */; };
+		F8D622422ACF048100D07567 /* DriveFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622372ACF048100D07567 /* DriveFile.swift */; };
+		F8D622432ACF048100D07567 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622392ACF048100D07567 /* UserProfileView.swift */; };
+		F8D622442ACF048100D07567 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6223A2ACF048100D07567 /* HomeView.swift */; };
+		F8D622452ACF048100D07567 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6223B2ACF048100D07567 /* SignInView.swift */; };
+		F8D622462ACF048100D07567 /* UserProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6223C2ACF048100D07567 /* UserProfileImageView.swift */; };
+		F8D622472ACF048100D07567 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6223F2ACF048100D07567 /* AuthenticationViewModel.swift */; };
+		F8D6224C2ACF04AB00D07567 /* UserProfileImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622492ACF04AB00D07567 /* UserProfileImageLoader.swift */; };
+		F8D6224D2ACF04AB00D07567 /* GoogleDriveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6224A2ACF04AB00D07567 /* GoogleDriveService.swift */; };
+		F8D6224E2ACF04AB00D07567 /* GoogleSignInAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D6224B2ACF04AB00D07567 /* GoogleSignInAuthenticator.swift */; };
+		F8D622512ACF051000D07567 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F8D622502ACF051000D07567 /* GoogleSignIn */; };
+		F8D622532ACF051000D07567 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F8D622522ACF051000D07567 /* GoogleSignInSwift */; };
+		F8D622552ACF0CB900D07567 /* MultipartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D622542ACF0CB900D07567 /* MultipartRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8D622202ACF027000D07567 /* POCiOSGoogCloudStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCiOSGoogCloudStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D622232ACF027100D07567 /* POCiOSGoogCloudStorageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCiOSGoogCloudStorageApp.swift; sourceTree = "<group>"; };
+		F8D622252ACF027100D07567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8D622272ACF027200D07567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8D6222A2ACF027200D07567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8D622312ACF039100D07567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8D622352ACF048100D07567 /* DriveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		F8D622362ACF048100D07567 /* DriveViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveViewModel.swift; sourceTree = "<group>"; };
+		F8D622372ACF048100D07567 /* DriveFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveFile.swift; sourceTree = "<group>"; };
+		F8D622392ACF048100D07567 /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		F8D6223A2ACF048100D07567 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F8D6223B2ACF048100D07567 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F8D6223C2ACF048100D07567 /* UserProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileImageView.swift; sourceTree = "<group>"; };
+		F8D6223F2ACF048100D07567 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		F8D622492ACF04AB00D07567 /* UserProfileImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileImageLoader.swift; sourceTree = "<group>"; };
+		F8D6224A2ACF04AB00D07567 /* GoogleDriveService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDriveService.swift; sourceTree = "<group>"; };
+		F8D6224B2ACF04AB00D07567 /* GoogleSignInAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInAuthenticator.swift; sourceTree = "<group>"; };
+		F8D622542ACF0CB900D07567 /* MultipartRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D6221D2ACF027000D07567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D622512ACF051000D07567 /* GoogleSignIn in Frameworks */,
+				F8D622532ACF051000D07567 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D622172ACF027000D07567 = {
+			isa = PBXGroup;
+			children = (
+				F8D622222ACF027100D07567 /* POCiOSGoogCloudStorage */,
+				F8D622212ACF027000D07567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D622212ACF027000D07567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622202ACF027000D07567 /* POCiOSGoogCloudStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D622222ACF027100D07567 /* POCiOSGoogCloudStorage */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622542ACF0CB900D07567 /* MultipartRequest.swift */,
+				F8D622482ACF04AB00D07567 /* Services */,
+				F8D622322ACF048100D07567 /* App */,
+				F8D622312ACF039100D07567 /* Info.plist */,
+				F8D622232ACF027100D07567 /* POCiOSGoogCloudStorageApp.swift */,
+				F8D622252ACF027100D07567 /* ContentView.swift */,
+				F8D622272ACF027200D07567 /* Assets.xcassets */,
+				F8D622292ACF027200D07567 /* Preview Content */,
+			);
+			path = POCiOSGoogCloudStorage;
+			sourceTree = "<group>";
+		};
+		F8D622292ACF027200D07567 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8D6222A2ACF027200D07567 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8D622322ACF048100D07567 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622332ACF048100D07567 /* Home */,
+				F8D6223D2ACF048100D07567 /* Commons */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F8D622332ACF048100D07567 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622342ACF048100D07567 /* Drive */,
+				F8D622382ACF048100D07567 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F8D622342ACF048100D07567 /* Drive */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622352ACF048100D07567 /* DriveView.swift */,
+				F8D622362ACF048100D07567 /* DriveViewModel.swift */,
+				F8D622372ACF048100D07567 /* DriveFile.swift */,
+			);
+			path = Drive;
+			sourceTree = "<group>";
+		};
+		F8D622382ACF048100D07567 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622392ACF048100D07567 /* UserProfileView.swift */,
+				F8D6223A2ACF048100D07567 /* HomeView.swift */,
+				F8D6223B2ACF048100D07567 /* SignInView.swift */,
+				F8D6223C2ACF048100D07567 /* UserProfileImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8D6223D2ACF048100D07567 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				F8D6223E2ACF048100D07567 /* ViewModels */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		F8D6223E2ACF048100D07567 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F8D6223F2ACF048100D07567 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F8D622482ACF04AB00D07567 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F8D622492ACF04AB00D07567 /* UserProfileImageLoader.swift */,
+				F8D6224A2ACF04AB00D07567 /* GoogleDriveService.swift */,
+				F8D6224B2ACF04AB00D07567 /* GoogleSignInAuthenticator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D6221F2ACF027000D07567 /* POCiOSGoogCloudStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D6222E2ACF027200D07567 /* Build configuration list for PBXNativeTarget "POCiOSGoogCloudStorage" */;
+			buildPhases = (
+				F8D6221C2ACF027000D07567 /* Sources */,
+				F8D6221D2ACF027000D07567 /* Frameworks */,
+				F8D6221E2ACF027000D07567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POCiOSGoogCloudStorage;
+			packageProductDependencies = (
+				F8D622502ACF051000D07567 /* GoogleSignIn */,
+				F8D622522ACF051000D07567 /* GoogleSignInSwift */,
+			);
+			productName = POCiOSGoogCloudStorage;
+			productReference = F8D622202ACF027000D07567 /* POCiOSGoogCloudStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D622182ACF027000D07567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F8D6221F2ACF027000D07567 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F8D6221B2ACF027000D07567 /* Build configuration list for PBXProject "POCiOSGoogCloudStorage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8D622172ACF027000D07567;
+			packageReferences = (
+				F8D6224F2ACF051000D07567 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = F8D622212ACF027000D07567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D6221F2ACF027000D07567 /* POCiOSGoogCloudStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D6221E2ACF027000D07567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D6222B2ACF027200D07567 /* Preview Assets.xcassets in Resources */,
+				F8D622282ACF027200D07567 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D6221C2ACF027000D07567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D622402ACF048100D07567 /* DriveView.swift in Sources */,
+				F8D622442ACF048100D07567 /* HomeView.swift in Sources */,
+				F8D6224E2ACF04AB00D07567 /* GoogleSignInAuthenticator.swift in Sources */,
+				F8D6224C2ACF04AB00D07567 /* UserProfileImageLoader.swift in Sources */,
+				F8D622432ACF048100D07567 /* UserProfileView.swift in Sources */,
+				F8D622412ACF048100D07567 /* DriveViewModel.swift in Sources */,
+				F8D622552ACF0CB900D07567 /* MultipartRequest.swift in Sources */,
+				F8D622262ACF027100D07567 /* ContentView.swift in Sources */,
+				F8D622422ACF048100D07567 /* DriveFile.swift in Sources */,
+				F8D622472ACF048100D07567 /* AuthenticationViewModel.swift in Sources */,
+				F8D622452ACF048100D07567 /* SignInView.swift in Sources */,
+				F8D622462ACF048100D07567 /* UserProfileImageView.swift in Sources */,
+				F8D622242ACF027100D07567 /* POCiOSGoogCloudStorageApp.swift in Sources */,
+				F8D6224D2ACF04AB00D07567 /* GoogleDriveService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8D6222C2ACF027200D07567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8D6222D2ACF027200D07567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D6222F2ACF027200D07567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCiOSGoogCloudStorage/Preview Content\"";
+				DEVELOPMENT_TEAM = ALVM8N53R4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POCiOSGoogCloudStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mruiz.POCiOSGoogCloudStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8D622302ACF027200D07567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"POCiOSGoogCloudStorage/Preview Content\"";
+				DEVELOPMENT_TEAM = ALVM8N53R4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = POCiOSGoogCloudStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mruiz.POCiOSGoogCloudStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D6221B2ACF027000D07567 /* Build configuration list for PBXProject "POCiOSGoogCloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D6222C2ACF027200D07567 /* Debug */,
+				F8D6222D2ACF027200D07567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D6222E2ACF027200D07567 /* Build configuration list for PBXNativeTarget "POCiOSGoogCloudStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D6222F2ACF027200D07567 /* Debug */,
+				F8D622302ACF027200D07567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F8D6224F2ACF051000D07567 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F8D622502ACF051000D07567 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8D6224F2ACF051000D07567 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F8D622522ACF051000D07567 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8D6224F2ACF051000D07567 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F8D622182ACF027000D07567 /* Project object */;
+}
